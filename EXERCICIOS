@@ -1,0 +1,71 @@
+/*5-Faça um programa no qual o usuário fornece o número do mês retorna a quantidade de dias no mês, 
+desconsidere anos bisextos. Lembrando que: Janeiro tem 31 dias; Fevereiro tem 28 dias; Março 31 dias; 
+Abril tem 30 dias; Maio tem 31 dias; Junho tem 30 dias; Julho tem 31 dias; Agosto tem 31 dias; Setembro tem 30 dias; 
+Outubro tem 31 dias; Novembro tem 30 dias e Dezembro têm 31 dias.*/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int mes;
+    printf("\nDIGITE UM MES :D .");
+    scanf("%i",&mes);
+    switch(mes)
+    {
+        case 1:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+            break;
+        case 3:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+            break;
+        case 5:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+             break;
+        case 7:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+             break;
+        case 8:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+             break;
+        case 10:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+             break;
+        case 12:
+            system("cls");
+            printf("\n este mes possui 31 dias.");
+            break;
+
+        case 2:
+            system("cls");
+            printf("\n este mes possui 28 dias.");
+        break;
+
+        case 4:
+             system("cls");
+             printf("\n este mes possui 30 dias.");
+            break;
+        case 6:
+            system("cls");
+            printf("\n este mes possui 30 dias.");
+            break;
+        case 9:
+             system("cls");
+             printf("\n este mes possui 30 dias.");
+            break;
+        case 11:
+            system("cls");
+            printf("\n este mes possui 30 dias.");
+            break;
+        default:
+        printf("\n INSIRA UM VALOR VALIDO");
+    }
+    return 0;
+}
